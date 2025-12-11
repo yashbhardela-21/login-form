@@ -1,0 +1,61 @@
+/* Background */
+body {
+    background-image: url("https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_16:9/at%2Fhouse%20tours%2Farchive%2Fcindy%20LA%20apartment%2F1e534a9a65d29509ca23d029fa339d2181e27fba");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+
+/* Login Box */
+.login-box {
+    width: 350px;
+    padding: 20px;
+    background: white;
+    margin: 100px auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00000055;
+}
+
+/* Inner colored box */
+.inner-box {
+    height: 200px;
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Inputs */
+.login-box input {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Button */
+.login-box button {
+    width: 95%;
+    padding: 10px;
+    background: #007bff;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.login-box button:hover {
+    background: #0056b3;
+}
+
+/* Error message */
+#message {
+    color: red;
+    margin-top: 10px;
+}
+
+
