@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!-- <!DOCTYPE html> 
 <html>
 <head>
     <title>Login - CRAFT NEST</title>
@@ -8,10 +8,11 @@
 
 <div class="login-box">
     <div class="inner-box">
-        <h1>Hello</h1>
+        <h1>CRAFT NEST</h1>
     </div>
 
-    <h2>Welcome Back!</h2>
+    <h2>!!Welcome Back!!</h2>
+    
 
     <input type="text" id="email" placeholder="Enter Email">
     <input type="password" id="password" placeholder="Enter Password">
@@ -26,7 +27,7 @@ function login() {
     let email = document.getElementById("email").value;
     let pass = document.getElementById("password").value;
 
-    let validEmail = "Yash";
+    let validEmail = "yashbhardela12";
     let validPassword = "123";
 
     if (email === validEmail && pass === validPassword) {
@@ -38,4 +39,133 @@ function login() {
 </script>
 
 </body>
+<<!DOCTYPE html>
+<html>
+<head>
+    <title>Login - CRAFT NEST</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+<div class="login-box">
+    <div class="inner-box">
+        <h1>CRAFT NEST</h1>
+    </div>
+
+    <h2>!!Welcome Back!!</h2>
+
+    <input type="text" id="email" placeholder="Enter Email">
+    <input type="password" id="password" placeholder="Enter Password">
+
+    <button onclick="login()">Login</button>
+
+    <p id="message"></p>
+
+    <p>Don't have an account? <a href="signup.html">Signup</a></p>
+</div>
+
+<script>
+function login() {
+    let email = document.getElementById("email").value;
+    let pass = document.getElementById("password").value;
+
+    let savedEmail = localStorage.getItem("email");
+    let savedPassword = localStorage.getItem("password");
+
+    if (email === savedEmail && pass === savedPassword) {
+        window.location.href = "home.html";
+    } else {
+        document.getElementById("message").innerText = "Incorrect email or password!";
+    }
+}
+</script>
+
+</body>
 </html>
+ <!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Login - CRAFT NEST</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+<div class="login-box">
+    <div class="inner-box">
+        <h1>CRAFT NEST</h1>
+    </div>
+
+    <h2>!!Welcome Back!!</h2>
+
+    <input type="text" id="email" placeholder="Enter Email">
+    <input type="password" id="password" placeholder="Enter Password">
+
+    <button onclick="login()">Login</button>
+
+    <p id="message"></p>
+
+    <p>Don't have an account? <a href="signup.html">Signup</a></p>
+</div>
+
+<script>
+function login() {
+    let email = document.getElementById("email").value;
+    let pass = document.getElementById("password").value;
+
+    let savedEmail = localStorage.getItem("email");
+    let savedPassword = localStorage.getItem("password");
+
+    if (email === savedEmail && pass === savedPassword) {
+        window.location.href = "home.html";
+    } else {
+        document.getElementById("message").innerText = "Incorrect email or password!";
+    }
+}
+</script>
+
+</body>
+</html> -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login - CRAFT NEST</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+<div class="login-box">
+    <div class="inner-box">
+        <h1>CRAFT NEST</h1>
+    </div>
+
+    <h2>!!Welcome Back!!</h2>
+
+    <input type="text" id="email" placeholder="Enter Email">
+    <input type="password" id="password" placeholder="Enter Password">
+
+    <button onclick="login()">Login</button>
+
+    <p id="message"></p>
+
+    <p>Don't have an account? <a href="signup.html">Signup</a></p>
+</div>
+
+<script>
+function login() {
+    let email = document.getElementById("email").value;
+    let pass = document.getElementById("password").value;
+
+    let savedEmail = localStorage.getItem("email");
+    let savedPassword = localStorage.getItem("password");
+
+    if (email === savedEmail && pass === savedPassword) {
+        window.location.href = "home.html";
+    } else {
+        document.getElementById("message").innerText = "Incorrect email or password!";
+    }
+}
+</script>
+
+</body>
+</html>
+ -->

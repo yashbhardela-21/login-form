@@ -1,0 +1,93 @@
+/* Background Image */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("https://media.istockphoto.com/id/173549067/photo/contact-us-banner-series.webp?s=2048x2048&w=is&k=20&c=2BGKRsduAUZtb6CSEx8sgP9nTy6RS6GTZ4IvbkaS1bc=");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Header */
+header h1 {
+    text-align: center;
+    color: crimson;
+    padding: 20px;
+    font-size: 40px;
+    text-shadow: 2px 2px 5px black;
+}
+
+/* Navbar */
+nav {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* Contact Form Box */
+.container {
+    width: 400px;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+.container h2 {
+    color: crimson;
+    margin-bottom: 20px;
+}
+
+.container input,
+.container textarea {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    font-size: 16px;
+}
+
+.container textarea {
+    height: 120px;
+    resize: none;
+}
+
+/* Button */
+.container button {
+    width: 95%;
+    padding: 12px;
+    background: crimson;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background: darkred;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 18px;
+}
